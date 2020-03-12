@@ -1,0 +1,30 @@
+{
+  "name": "covid-19.pe",
+  "version": "1.0.0",
+  "description": "Informacion en tiempo real, sobre CORONAVIRUS en el Peru.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcusi/covid-19.pe.git"
+  },
+  "author": "Piero Abraham Cusi Ruiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pcusi/covid-19.pe/issues"
+  },
+  "homepage": "https://github.com/pcusi/covid-19.pe#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.4",
+    "mongoose-paginate": "^5.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
